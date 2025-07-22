@@ -1,0 +1,25 @@
+github:
+  username: ""
+  token: ""
+  repo_url: ""
+  branch: "master"
+  new_branch: "develop"
+  new_repo_name: "Calculator"
+  user_email: "patilbalu7755@gmail.com"
+
+project:
+  repo_path: "C:\\Users\\balu\\IdeaProjects\\Calculator"
+  project_name: "Calci"   # ✅ new: name of the Python package
+  module_name: "calculator"                         # ✅ new: main entry module for generated code
+
+llm:
+  provider: groq
+  model: llama3-70b-8192
+  api_key:
+  temperature: 0.9
+
+settings:
+  branch_prefix: "develop"
+  tdd_coverage: 90             # ✅ still used by GenerateCoverageAgent
+  diagram_format: "png"
+  code_style: "oop"            # ✅ optional: enforce OOP and patterns in LLM prompt
